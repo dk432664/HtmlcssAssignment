@@ -1,0 +1,67 @@
+.h2
+{
+	padding-left: 0.5em;
+	text-align: center;
+	margin: 0.5em;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+a{
+	float: right;
+	position:relative;
+	margin-right: 0.5em;
+	padding: 0.5em;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  border: 1px solid black;
+  flex-direction: row;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  height: 1200px;
+  width: 25%;
+  border: 2px solid red;
+}
+div .sixth-sixth
+{
+	width: 30%;
+}
+div .Third-third
+{
+	width: 20%;
+}
+div .Third-third
+{
+	width: 25%;
+}
+
+@media screen and (max-width: 768px){
+	.flex-container{
+		width: 100%;
+	}
+	.Third-third{
+		width: 20%;
+	}
+	.sixth-sixth{
+		width: 25%;
+	}
+	.Fourth-fourth
+	{
+		width: 20%;
+	}
+}
+​
+@media screen and (min-width: 769px ) and (max-width: 1200px){
+	.flex-container{
+		width: 100%;
+	}
+}
